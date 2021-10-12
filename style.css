@@ -1,0 +1,614 @@
+.block1
+{
+background: #FAFBFD;
+position: absolute;
+width: 100%;
+height: 700px;
+left: 0px;
+top: 0px;
+}
+logo
+{
+background-image: url("images/Group%202.png");
+position: absolute;
+width: 140px;
+height: 40px;
+left: 52px;
+top: 37px;
+}
+.navbar
+{
+    position: absolute;
+   
+top:51px;
+right: 310px;
+
+}
+.navbar a
+{
+
+  display: inline;
+   margin: 20px;
+     text-decoration: none;
+    font-family: 'Raleway';
+font-style:normal;
+font-weight:bold;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.14em;
+color: #000000;
+}
+.sidepic1
+{
+    background-image: url("images/Rectangle%2015.png");
+    position: absolute;
+width: 295.29px;
+height: 700px;
+right: 0px;
+top:0px;
+}
+.sidepic2
+{
+    background-image: url("images/Group%2014.png");
+position:absolute;
+right: 52px;
+top: 164px;;
+    width:547px;
+    height: 394px;
+    background-repeat: no-repeat;
+}
+.rbutton
+{
+position: absolute;
+width: 130px;
+height: 40px;
+right:43px;
+top: 37px;
+background: #4285F4;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+    
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+letter-spacing: 0.14em;
+color: #FCFDFE;
+    
+transition-duration: 0.4s;
+}
+.rbutton:hover 
+{
+  background-color: #6859F2;
+  color: white;
+}
+h1
+{
+position:absolute;
+width: 550px;
+height: 108px;
+left: 70px;
+top: 230px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 126%;
+/* or 55px */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+}
+
+h1:after 
+{
+    content:attr(data-text);
+  color: #4285F4;
+    transform:translateX(-100%);
+}
+
+h3
+{
+    position: absolute;
+width: 375px;
+height: 36px;
+left: 70px;
+top: 370px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 138.5%;
+/* or 17px */
+
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #616161;
+}
+
+.lbutton
+{
+position: absolute;
+width: 144px;
+height: 40px;
+left: 70px;
+top: 440px;
+background: #EC5863;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+letter-spacing: 0.14em;
+color: #FCFDFE;
+    
+transition-duration: 0.4s;
+}
+
+.lbutton:hover 
+{
+background-color: #6859F2;
+color: white;    
+}
+
+play
+{
+    background-image: url("images/Group%2023.png");
+position: absolute;
+width: 44px;
+height: 44px;
+left: 70px;
+top: 608px;
+}
+h4
+{
+    position: absolute;
+width: 172px;
+height: 16px;
+left: 126px;
+top: 600px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 126%;
+/* or 16px */
+
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #B0B0B0;
+}
+h5
+{
+    position: absolute;
+width: 80px;
+height: 11px;
+left: 126px;
+top: 620px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 9px;
+line-height: 126%;
+/* or 11px */
+
+letter-spacing: 0.165em;
+text-transform: uppercase;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+}
+
+.block2
+{
+background-color: #FFFFFF;
+position: absolute;
+width: 100%;
+height: 700px;
+left: 0px;
+top: 700px;
+}
+.rect1
+{
+ 
+    position: absolute;
+    width: 147px;
+    height: 147px;
+    left: 100px;
+    top: 79px;
+
+    background: #EC5863;
+    border-radius: 30px;
+}
+.rect2
+{
+  
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 361px;
+    top: 437px;
+   
+    background: #EC5863;
+    border-radius: 30px;
+}
+.rect3
+{
+    
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 132px;
+    top: 544px;
+   
+    background: #EC5863;
+    border-radius: 30px;
+}
+.ui
+{
+    background-image: url("images/Daily%20UI%201.png");
+    position: absolute;
+width: 270px;
+height: 490px;
+left: 142px;
+top: 107px;
+
+filter: drop-shadow(10px 3px 10px rgba(0, 0, 0, 0.09));
+border-radius: 16px;
+}
+.rect4
+{
+
+    position: absolute;
+position: absolute;
+width: 206px;
+height: 27px;
+left: 183px;
+top: 579px;
+
+background: rgba(640, 740, 740, 0.3);
+border-radius: 16px;
+}
+h2
+{
+position:absolute;
+width: 379px;
+height: 108px;
+left: 587px;
+top: 201px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 126%;
+/* or 55px */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+}
+
+h2:after 
+{
+    content:attr(data-text);
+  color: #EC5863;
+    transform:translateX(-100%);
+}
+h6
+{
+    position: absolute;
+width: 363px;
+height: 54px;
+left: 587px;
+top: 327px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 138.5%;
+/* or 17px */
+
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #616161;
+}
+.fbutton
+{
+position: absolute;
+width: 144px;
+height: 40px;
+left: 587px;
+top: 424px;
+background: #EC5863;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+letter-spacing: 0.14em;
+color: #FCFDFE;
+    
+transition-duration: 0.4s;
+}
+
+.fbutton:hover 
+{
+background-color: #6859F2;
+color: white;    
+}
+
+.block3
+{
+background: #FAFBFD;
+position: absolute;
+width: 100%;
+height: 700px;
+left: 0px;
+top: 1400px;
+}
+.rect5
+{
+    position: absolute;
+width: 65.75px;
+height: 65.75px;
+left: 228px;
+top: 174.81px;
+
+background: #EC5863;
+border-radius: 16px;
+    transform: rotate(-30deg);
+}
+.rect6
+{
+    position: absolute;
+width: 96.96px;
+height: 96.96px;
+left: 458px;
+top: 64.09px;
+
+background: #EC5863;
+border-radius: 30px;
+transform: rotate(105deg);
+
+}
+.rect7
+{
+    position: absolute;
+width: 127.47px;
+height: 127.47px;
+right: 199px;
+top: 104.35px;
+
+background: #EC5863;
+border-radius: 30px;
+transform: rotate(-30deg);
+}
+.rect8
+{
+
+position: absolute;
+height: 117px;
+top: 103.93px;
+left:249px;
+right:249px;
+
+
+background: #FFFFFF;
+box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+border-radius: 16px;
+}
+
+.pokazateli
+{
+    position: absolute;
+    width: 100%;
+top:180px;
+text-align:center;
+}
+.pokazateli a
+{
+  display:inline;
+     text-decoration: none;
+    font-family: 'Raleway';
+font-style:normal;
+font-weight:bolder;
+font-size: 10px;
+line-height: 12px;
+letter-spacing: 0.30em;
+color: #000000;
+}
+a1{margin-right:100px;}
+a2{margin-right:84px;}
+a3{margin-left:0px;}
+.cifry
+{
+    position: absolute;
+    width: 100%;
+top:135px;
+text-align:center;
+}
+.cifry a
+{
+
+  display:inline;
+
+     text-decoration: none;
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 43px;
+/* identical to box height */
+
+letter-spacing: 0.14em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #EC5863;
+}
+p1{margin-left:10px;margin-right:0px;}
+p2{margin-left:95px;margin-right:5px;}
+p3{margin-left:60px;}
+h7
+{
+position:absolute;
+width: 393px;
+height: 53px;
+left: 92px;
+top: 351px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 126%;
+/* or 55px */
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+}
+
+h7:after 
+{
+    content:attr(data-text);
+  color: #4285F4;
+    transform:translateX(-100%);
+}
+h8
+{
+    position: absolute;
+width: 388px;
+height: 52px;
+left: 92px;
+top: 416.07px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 138.5%;
+/* or 17px */
+
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #616161;
+}
+.f2button
+{
+position: absolute;
+width: 144px;
+height: 40px;
+left: 92px;
+top: 490.07px;
+background: #EC5863;
+border-radius: 5px;
+border: none;
+cursor:pointer;
+
+font-family: Raleway;
+font-style: normal;
+font-weight: 800;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+letter-spacing: 0.14em;
+color: #FCFDFE;
+    
+transition-duration: 0.4s;
+}
+
+.f2button:hover 
+{
+background-color: #6859F2;
+color: white;    
+}
+.ui1
+{
+    background-image: url("images/Group%2026.png");
+position:absolute;
+width: 548.17px;
+height: 310px;
+right: 71px;
+top: 300px;
+}
+
+.block4
+{
+background-color: #FFFFFF;
+position: absolute;
+width: 100%;
+height: 700px;
+left: 0px;
+top: 2100px;
+}
+h9
+{
+position:absolute;
+width: 100%;
+height: 55px;
+top: 80px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 44px;
+line-height: 126%;
+text-align: center;
+
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+}
+
+h9:before 
+{
+    content:attr(data-text);
+  color: #EC5863;
+    transform:translateX(-100%);
+}
+h10
+{
+   position: absolute;
+width: 620px;
+height: 72px;
+    left:260px;
+
+top: 148px;
+
+font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 138.5%;
+/* or 17px */
+
+text-align: center;
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #616161; 
+}
