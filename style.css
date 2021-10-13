@@ -82,7 +82,7 @@ transition-duration: 0.4s;
 }
 .rbutton:hover 
 {
-  background-color: #6859F2;
+  background-color: #5859F2;
   color: white;
 }
 h1
@@ -159,7 +159,7 @@ transition-duration: 0.4s;
 
 .lbutton:hover 
 {
-background-color: #6859F2;
+background-color: #5859F2;
 color: white;    
 }
 
@@ -356,7 +356,7 @@ transition-duration: 0.4s;
 
 .fbutton:hover 
 {
-background-color: #6859F2;
+background-color: #5859F2;
 color: white;    
 }
 
@@ -543,7 +543,7 @@ transition-duration: 0.4s;
 
 .f2button:hover 
 {
-background-color: #6859F2;
+background-color: #5859F2;
 color: white;    
 }
 .ui1
