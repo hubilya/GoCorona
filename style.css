@@ -593,10 +593,10 @@ h9:before
 h10
 {
    position: absolute;
-width: 620px;
-height: 72px;
-    left:260px;
 
+width: 100%;
+height: 72px;
+left:-5px;
 top: 148px;
 
 font-family: Rubik;
@@ -607,8 +607,57 @@ line-height: 138.5%;
 /* or 17px */
 
 text-align: center;
-letter-spacing: 0.08em;
+letter-spacing: 0.05em;
 font-feature-settings: 'pnum' on, 'lnum' on;
 
 color: #616161; 
+}
+.rect9
+{
+   position: absolute;
+width: 65.75px;
+height: 65.75px;
+left: 56.47px;
+top: 512.21px;
+
+background: #EC5863;
+border-radius: 16px;
+transform: rotate(-30deg);
+
+}
+.rect10
+{
+    position: absolute;
+width: 96.96px;
+height: 96.96px;
+left: 307.57px;
+top: 303.16px;
+
+background: #EC5863;
+border-radius: 30px;
+transform: rotate(105deg);
+}
+.rect11
+{
+   position: absolute;
+width: 127.47px;
+height: 127.47px;
+right: 334.24px;
+top: 459.75px;
+
+background: #EC5863;
+border-radius: 30px;
+transform: rotate(-30deg);
+}
+.rect12
+{
+position: absolute;
+width: 65.75px;
+height: 65.75px;
+right: 55.93px;
+top: 233.46px;
+
+background: #EC5863;
+border-radius: 16px;
+transform: rotate(-30deg);
 }
