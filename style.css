@@ -661,3 +661,73 @@ background: #EC5863;
 border-radius: 16px;
 transform: rotate(-30deg);
 }
+
+.footerbtns {
+    display: inline-flex;
+    position:absolute;
+    width:100%;
+    justify-content: center;
+    margin-top:210px;
+    
+}
+
+button.btn {
+    margin: 36px;
+    width: 278.17px;
+    height: 276.52px;
+    border:none;
+    background: #FFFFFF;
+box-shadow: 0px 4px 18px rgba(88, 126, 236, 0.18);
+border-radius: 8px;
+    cursor:pointer;
+    transition-duration: 0.4s;
+    
+    font-family: Rubik;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 138.5%;
+/* or 22px */
+
+text-align: center;
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #000000;
+}
+.btn:hover 
+{
+background-color: #5859F2;
+color: white;    
+}
+
+btxt{
+    font-family: Rubik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 138.5%;
+/* or 17px */
+
+text-align: center;
+letter-spacing: 0.08em;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #616161;
+
+}
+
+.footerapps {
+    display: inline-flex;
+    position:absolute;
+    width:100%;
+    justify-content: center;
+    margin-top:600px;
+    
+}
+button.apps {
+    margin:20px;
+cursor:pointer;
+border:none;
+background: url(image.png);
+}
