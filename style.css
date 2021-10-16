@@ -317,14 +317,12 @@ h6 {
   border-radius: 30px;
   transform: rotate(-30deg);
 }
-.rect8 {
-  position: absolute;
-  height: 117px;
-  top: 103.93px;
-  left:249px;
-  right:249px;
-  background: #FFFFFF;
-  box-shadow: 0px 2px 24px rgba(88, 126, 236, 0.15);
+.statistics {
+  display: inline-flex;
+  position:absolute;
+  width:100%;
+  justify-content: center;
+  margin-top:81.93px; 
   border-radius: 16px;
 }
 .pokazateli {
