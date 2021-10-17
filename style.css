@@ -242,7 +242,7 @@ h2:after {
 }
 h6 {
   position: absolute;
-  width: 390px;
+  width: 365px;
   height: 54px;
   left: 587px;
   top: 327px;
@@ -251,7 +251,7 @@ h6 {
   font-weight: normal;
   font-size: 12px;
   line-height: 138.5%;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.04em;
   font-feature-settings: 'pnum' on, 'lnum' on;
   color: #616161;
 }
